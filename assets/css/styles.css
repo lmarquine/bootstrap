@@ -1,0 +1,28 @@
+/*  Styles imports  */
+@import url('./variables.css');
+
+.navbar-brand img {
+    width: 100%;
+    max-width: 200px;
+}
+
+.section-hero {
+    margin-top: 45px;
+}
+
+.footer {
+    margin-top: 25px;
+    background: var(--theme-orange-dark);
+    color: var(--bs-white);
+    padding: 30px 0;
+}
+
+.btn-more {
+    background: var(--theme-orange-light);
+    color: var(--theme-black);
+}
+
+.btn-more:hover {
+    background: var(--theme-orange-dark);
+    color: var(--theme-black);
+}
